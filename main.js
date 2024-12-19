@@ -4,8 +4,6 @@ import chalk from 'chalk';
 import { HttpsProxyAgent } from 'https-proxy-agent';
 import { banner } from './utils/banner.js';
 import { logger } from './utils/logger.js';
-import getToken from './getToken.js';
-
 const getRandomQuality = () => {
     return Math.floor(Math.random() * (99 - 60 + 1)) + 60;
 };
